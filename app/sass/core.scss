@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  // background-color: darkgray;
+}
+
+// li {
+//   background-color: white;
+// }
+
+#content {
+  width: 100%;
+}
+
+#leftSide {
+  height: 90%;
+}
+
+#rightSide {
+  height: 100%;
+}
+
+// #rightSide, .bottom {
+//   background-color: darkgray;
+// }
+
+.photo {
+  position: absolute;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/Larry6.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#contact {
+  height: 10%;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+}
+
+.tab-content {
+  background-color: white;
+  overflow: scroll;
+  height: 90%;
+}
+
+// .position, .school, .certification {
+//   border-bottom: 1px solid black;
+// }
